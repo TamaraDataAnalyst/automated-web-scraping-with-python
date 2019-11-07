@@ -35,9 +35,8 @@ class ForecastWeather:
         "temp": temps,
         "desc":descs
         })
-        print(weather)
-        
-            
+        print(weather)      
+          
 
 if __name__ == '__main__':
 
