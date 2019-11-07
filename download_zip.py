@@ -32,7 +32,8 @@ class DownloadCompressedFile:
         dirname = '.\dest'
         filename = 'sentiment_labelled_sentences.zip'
         self.save_to_filepath(dirname, filename)
-
+        
+        
 if __name__ == '__main__':
     obj = DownloadCompressedFile()
     obj.run()
